@@ -1,0 +1,6 @@
+Utilizando Sum na tb_mesa:
+SELECT sum(capacidade) FROM tb_Mesa
+
+Utilizando Count na tb_Mesa:
+SELECT count(capacidade) FROM tb_Mesa
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="D:/Ds- SESI/BANCO_DE_DADOS/Banco-SQLite/5-Floricultura/floricultura.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="1385"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainclientes"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">-- Inserção de dados na tabela 'flor'
+INSERT INTO flor (codigo, nome_cientifico, nome_popular, preco) 
+VALUES 
+    (1, 'Rosa gallica', 'Rosa Vermelha', 12.99),
+    (2, 'Lilium candidum', 'Lírio Branco', 9.99),
+    (3, 'Tulipa gesneriana', 'Tulipa Vermelha', 8.49),
+    (4, 'Dianthus caryophyllus', 'Cravo Vermelho', 6.99),
+    (5, 'Gypsophila paniculata', 'Gipsofila Branca', 5.99);
+
+-- Inserção de dados na tabela 'estoque_flores'
+INSERT INTO estoque_flores (codigo, quantidade, cores_disponiveis) 
+VALUES 
+    (1, 50, 'Vermelho, Branco, Rosa, Amarelo'),
+    (2, 40, 'Branco'),
+    (3, 60, 'Vermelho, Amarelo'),
+    (4, 35, 'Vermelho'),
+    (5, 80, 'Branco');
+
+-- Inserção de dados na tabela 'clientes'
+INSERT INTO clientes (nome, CPF, telefone, endereco_entrega) 
+VALUES 
+    ('Maria Silva', '123.456.789-10', '(11) 98765-4321', 'Rua das Flores, 123'),
+    ('João Oliveira', '987.654.321-10', '(11) 12345-6789', 'Avenida dos Lírios, 456'),
+    ('Ana Souza', '456.789.123-10', '(11) 55555-5555', 'Praça das Tulipas, 789'),
+    ('Pedro Santos', '789.123.456-10', '(11) 33333-3333', 'Alameda das Rosas, 789'),
+    ('Carla Rodrigues', '321.654.987-10', '(11) 99999-9999', 'Travessa das Gipsofilas, 10');
+
+-- Inserção de dados na tabela 'pedidos'
+INSERT INTO pedidos (numero_pedido, data_de_realizacao, valor_total) 
+VALUES 
+    (1, '2023-01-15', 45.95),
+    (2, '2023-02-20', 31.47),
+    (3, '2023-03-10', 57.45),
+    (4, '2023-04-05', 27.93),
+    (5, '2023-05-12', 47.92);</sql><current_tab id="0"/></tab_sql></sqlb_project>
