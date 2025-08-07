@@ -49,9 +49,9 @@ Cada exercício contém:
 
 Os mapas a seguir estão disponíveis para consulta rápida dos conceitos:
 
-- [`Banco-Dados.png`](./MapasMentais/Banco-Dados.png): Tipos de Bancos de Dados (Relacionais vs Não-Relacionais)
-- [`DML.png`](./MapasMentais/DML.png): Comandos de Manipulação de Dados (DML)
-- [`DDL.png`](./MapasMentais/DDL.png): Linguagem de definição de dados (DDL)
+- [`Banco-Dados.png`](./Exercicios/MapasMentais/Banco-Dados.png): Tipos de Bancos de Dados (Relacionais vs Não-Relacionais)
+- [`DML.png`](./Exercicios/MapasMentais/DML.png): Comandos de Manipulação de Dados (DML)
+- [`DDL.png`](./Exercicios/MapasMentais/DDL.png): Linguagem de definição de dados (DDL)
 
 ---
 
