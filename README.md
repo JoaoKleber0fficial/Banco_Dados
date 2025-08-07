@@ -51,6 +51,7 @@ Os mapas a seguir estão disponíveis para consulta rápida dos conceitos:
 
 - [`Banco-Dados.png`](./Banco-Dados.png): Tipos de Bancos de Dados (Relacionais vs Não-Relacionais)
 - [`DML.png`](./DML.png): Comandos de Manipulação de Dados (DML)
+- [`DDL.png`](./DDL.png): Comandos de Manipulação de Dados (DML)
 
 ---
 
